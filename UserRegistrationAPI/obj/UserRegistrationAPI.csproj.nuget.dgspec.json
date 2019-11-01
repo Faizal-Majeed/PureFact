@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/silhajon24thoct/Documents/Purefact/UserRegistrationAPI/UserRegistrationAPI.csproj": {}
+    "/Users/silhajon24thoct/Documents/Purefact/PureFact/UserRegistrationAPI/UserRegistrationAPI.csproj": {}
   },
   "projects": {
-    "/Users/silhajon24thoct/Documents/Purefact/UserRegistrationAPI/UserRegistrationAPI.csproj": {
+    "/Users/silhajon24thoct/Documents/Purefact/PureFact/UserRegistrationAPI/UserRegistrationAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/silhajon24thoct/Documents/Purefact/UserRegistrationAPI/UserRegistrationAPI.csproj",
+        "projectUniqueName": "/Users/silhajon24thoct/Documents/Purefact/PureFact/UserRegistrationAPI/UserRegistrationAPI.csproj",
         "projectName": "UserRegistrationAPI",
-        "projectPath": "/Users/silhajon24thoct/Documents/Purefact/UserRegistrationAPI/UserRegistrationAPI.csproj",
+        "projectPath": "/Users/silhajon24thoct/Documents/Purefact/PureFact/UserRegistrationAPI/UserRegistrationAPI.csproj",
         "packagesPath": "/Users/silhajon24thoct/.nuget/packages/",
-        "outputPath": "/Users/silhajon24thoct/Documents/Purefact/UserRegistrationAPI/obj/",
+        "outputPath": "/Users/silhajon24thoct/Documents/Purefact/PureFact/UserRegistrationAPI/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -38,6 +38,54 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.0-rc3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[5.5.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
